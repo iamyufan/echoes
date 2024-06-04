@@ -1,0 +1,91 @@
+.card {
+  border-radius: 12px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  border: solid 1px rgba(0, 0, 0, 0.738);
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 280px;
+  /* Radius gradient for the card */
+  background: var(--heartstrings-bg);
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin-bottom: 10px;
+  font-family: var(--font-dm-sans);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  border: solid 1px rgba(0, 0, 0, 0.738);
+  max-width: 120px;
+  font-size: 0.7rem;
+  color: var(--text-primary);
+  font-family: var(--font-dm-mono);
+}
+
+.content {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.4;
+  /* flex-grow: 1; */
+  font-family: var(--font-dm-sans);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  font-family: var(--font-dm-sans);
+}
+
+.resonateButton {
+  background-color: #ffffff34;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.3s;
+}
+
+.resonateButton:hover {
+  background-color: #ffffffa8;
+}
+
+/* Styles for each category */
+.heartstrings {
+  background: var(--heartstrings-bg);
+}
+.baresoul {
+  background: var(--baresoul-bg);
+}
+.dreamscape {
+  background: var(--dreamscape-bg);
+}
+.culturecache {
+  background: var(--culturecache-bg);
+}
+.guidinglights {
+  background: var(--guidinglights-bg);
+}
+.pulsepoints {
+  background: var(--pulsepoints-bg);
+}
+.mindnbody {
+  background: var(--mindnbody-bg);
+}

@@ -1,0 +1,100 @@
+.navbar {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 1rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-dm-mono);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-primary);
+}
+
+.navbar a:hover {
+  color: var(--text-secondary);
+}
+
+.navbarRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.auth {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-dm-mono);
+}
+
+.dropdownMenu {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 2rem;
+}
+
+.dropdownItem {
+  margin: 16px 16px;
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-family: var(--font-dm-sans);
+  text-decoration: underline;
+}
+
+.emailLink {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownItem:hover {
+  color: var(--text-secondary)
+}
+

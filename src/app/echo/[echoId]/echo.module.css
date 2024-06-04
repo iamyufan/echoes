@@ -1,0 +1,153 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem 2rem 4rem;
+  min-height: 100vh;
+  /* max-width: var(--max-width); */
+}
+
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: var(--max-width);
+  gap: 3rem;
+  width: 60%;
+  min-height: 70vh;
+  margin: 3rem 0;
+}
+
+.echoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: var(--max-width);
+  gap: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--text-primary);
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  border: solid 1px rgba(0, 0, 0, 0.738);
+  max-width: 120px;
+  font-size: 0.7rem;
+  color: var(--text-primary);
+  font-family: var(--font-dm-mono);
+}
+
+.recordButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.recordButton {
+  border-radius: 12px;
+  border: solid 1px rgba(var(--card-border-rgb), 0.738);
+  padding: 1rem;
+  margin-right: 5rem;
+}
+
+.echoTitle {
+  /* margin-bottom: 1rem; */
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--text-primary);
+}
+
+.resonances {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--text-primary);
+}
+
+.resonanceForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.resonanceInput {
+  border: solid 1px rgba(0, 0, 0, 0.738);
+  padding: 1rem;
+  font-size: var(--text-normal-size);
+  font-family: var(--font-dm-sans);
+}
+
+.anonymousName {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.randomWord {
+  font-weight: 800;
+}
+
+.randomButton {
+  border-radius: 102px;
+  border: solid 1px rgba(var(--card-border-rgb), 0.738);
+  padding: 0 1rem;
+  font-size: 0.7rem;
+}
+
+.submitButton {
+  border-radius: 12px;
+  border: solid 1px rgba(var(--card-border-rgb), 0.738);
+  max-width: 14rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.echoButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+
+.collectButton {
+  padding: 0.5rem;
+  background-color: var(--button-white);
+  border: solid 1px rgba(var(--card-border-rgb), 0.738);
+  color: var(--text-primary);
+  width: 100px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.collectButton:hover {
+  background-color: var(--text-third);
+  color: var(--card-rgb);
+}
+
+.collectedButton {
+  padding: 0.5rem;
+  background-color: var(--button-grey);
+  border: solid 1px rgba(var(--card-border-rgb), 0.738);
+  color: rgba(var(--text-third));
+  width: 100px;
+  cursor: pointer;
+  font-size: 0.7rem;
+}
+
+.collectedButton:hover {
+  background-color: var(--text-third);
+  color: var(--text-primary);
+}

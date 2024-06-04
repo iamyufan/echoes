@@ -1,0 +1,84 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem 2rem 4rem;
+  /* min-height: 100vh; */
+}
+
+.centerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: var(--max-width);
+}
+
+.categoryButtons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: var(--max-width);
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.all {
+  background: linear-gradient(
+    0deg,
+    rgba(202, 202, 202, 0.452) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.heartstrings {
+  background: var(--heartstrings-bg);
+}
+.baresoul {
+  background: var(--baresoul-bg);
+}
+.dreamscape {
+  background: var(--dreamscape-bg);
+}
+.culturecache {
+  background: var(--culturecache-bg);
+}
+.guidinglights {
+  background: var(--guidinglights-bg);
+}
+.pulsepoints {
+  background: var(--pulsepoints-bg);
+}
+.mindnbody {
+  background: var(--mindnbody-bg);
+}
+
+.categoryButton {
+  border: 1px solid var(--text-primary);
+  border-radius: 120px;
+  padding: 0 1rem;
+  background-color: white;
+  font-size: 0.9rem;
+}
+
+.categoryButton:hover {
+  color: var(--text-secondary);
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}

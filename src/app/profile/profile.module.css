@@ -1,0 +1,145 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem 2rem 4rem;
+  min-height: 100vh;
+}
+
+.summaryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: var(--max-width);
+  gap: 1rem;
+  width: 100%;
+  margin: 5rem 0 0 0;
+  /* padding-left: 1rem; */
+  font-family: var(--font-dm-mono);
+
+  /* background-image: url("../bg2.svg"); */
+}
+
+.textContainer {
+  padding-left: 1rem;
+  border-left: 1px solid var(--text-primary);
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+}
+
+.email {
+  font-weight: 600;
+}
+
+.number {
+  font-size: 1.3rem;
+  font-family: var(--font-dm-mono);
+  font-weight: 700;
+}
+
+.tabContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 5rem;
+  /* width: 100%; */
+}
+
+.tabButton {
+  border-bottom: 1px solid var(--text-primary);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: var(--font-dm-sans);
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.tabButton:hover {
+  color: var(--text-third);
+}
+
+.active {
+  color: var(--text-primary);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: var(--max-width);
+}
+
+.categoryButtons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: var(--max-width);
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.all {
+  background: linear-gradient(
+    0deg,
+    rgba(202, 202, 202, 0.452) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.heartstrings {
+  background: var(--heartstrings-bg);
+}
+.baresoul {
+  background: var(--baresoul-bg);
+}
+.dreamscape {
+  background: var(--dreamscape-bg);
+}
+.culturecache {
+  background: var(--culturecache-bg);
+}
+.guidinglights {
+  background: var(--guidinglights-bg);
+}
+.pulsepoints {
+  background: var(--pulsepoints-bg);
+}
+.mindnbody {
+  background: var(--mindnbody-bg);
+}
+
+.categoryButton {
+  border: 1px solid var(--text-primary);
+  border-radius: 120px;
+  padding: 0 1rem;
+  background-color: white;
+  font-size: 0.9rem;
+}
+
+.categoryButton:hover {
+  color: var(--text-secondary);
+}
+
+/* .active {
+  background-color: var(--text-third);
+  color: var(--text-primary);
+} */

@@ -1,0 +1,8 @@
+.cardgrid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  justify-items: space-around;
+}
